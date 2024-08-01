@@ -1,0 +1,35 @@
+{
+    "posts" : [
+        {
+            "title": "First post",
+            "text": "This is a first post",
+            "author": "John",
+            "creationTime": "2023-01-01T12:00:00Z"
+        },
+        {
+            "title": "Second post",
+            "text": "This is a second post",
+            "author": "John",
+            "creationTime": "2023-01-02T12:00:00Z"
+        },
+        {
+            "title": "Third post",
+            "text": "This is a third post",
+            "author": "John",
+            "creationTime": "2023-01-03T12:00:00Z"
+        },
+        {
+            "title": "Fourth post",
+            "text": "This is a fourth post",
+            "author": "John",
+            "creationTime": "2023-01-04T12:00:00Z"
+        },
+        {
+            "title": "Fifth post",
+            "text": "This is a fifth post",
+            "author": "John",
+            "creationTime": "2023-01-05T12:00:00Z"
+        }
+    ]
+
+}

@@ -1,0 +1,16 @@
+extends ../../layouts/base.pug
+
+include ../../components/title/title
+
+block content
+  .container
+    .p3
+      +title-1({text: 'Posts'})
+    .row.mt-3
+      each post in posts
+        .col-12.col-sm-6.col-md-4.mb-5
+          .card
+            img(src="https://picsum.photos/200" class="card-img-top" alt="...")
+            .card-body
+              h5.card-title #{post.title}
+              p.card-text #{post.text}
